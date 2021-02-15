@@ -1,0 +1,18 @@
+{
+  "name": "figma-plugin-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.19.0",
+    "microbundle": "^0.13.0"
+  }
+}
